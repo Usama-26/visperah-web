@@ -11,7 +11,7 @@ import Image from "next/image";
 import MenuIcon from "@/icons/menu-icon";
 import XMarkIcon from "@/icons/x-mark-icon";
 import clsx from "clsx";
-import { inter } from "@/pages/fonts";
+import { inter } from "@/pages/fonts/fonts";
 
 const navigation = [
   { name: "Home", href: "/" },
