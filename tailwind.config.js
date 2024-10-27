@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: "var(--font-sans)",
+        "jetbrains-mono": "var(--font-jetbrains-mono)",
+        display: "var(--font-display)",
+        "display-bold": "var(--font-display-bold)",
+      },
     },
   },
   plugins: [],
