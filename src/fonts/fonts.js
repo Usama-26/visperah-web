@@ -20,6 +20,7 @@ export const futuraMD = localFont({
   variable: "--font-display",
   weight: "100 900",
 });
+
 export const futuraBoldBT = localFont({
   src: "./FutuBd.ttf",
   variable: "--font-display-bold",

@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "@splidejs/react-splide/css/core";
 import { futuraBoldBT, futuraMD, inter, jetbrains_mono } from "../fonts/fonts";
 
 export default function App({ Component, pageProps }) {

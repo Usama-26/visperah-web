@@ -25,9 +25,9 @@ export default function HomeHero() {
           }}
         />
       </div>
-      <div className="mx-auto max-w-3xl py-10 sm:py-14 lg:py-[4.5rem] ">
-        <div className="text-center">
-          <h1 className="text-3xl sm:text-5xl font-display ">
+      <div className="mx-auto max-w-3xl py-10 sm:py-14 lg:py-[4.5rem]  ">
+        <div className="text-center px-4 md:px-0">
+          <h1 className="text-3xl md:text-5xl  font-display ">
             Build Your Brand with Visperah Let&apos;s Grow Together.
           </h1>
           <p className="mt-6 lg:text-base text-sm leading-6 text-gray-700 max-w-md mx-auto">

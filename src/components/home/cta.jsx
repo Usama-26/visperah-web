@@ -12,7 +12,7 @@ export default function CTA() {
         className="absolute top-0 left-0 w-full h-full"
         alt="Light Rays Background"
       />
-      <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-20 xl:container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-4 lg:space-y-6 text-center max-w-xl mx-auto">
           <h6 className="text-xs md:text-sm lg:text-base text-center">
             Ready to get started?

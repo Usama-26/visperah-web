@@ -26,7 +26,7 @@ const processSteps = [
 export default function Process() {
   return (
     <section className="bg-black text-white pt-8 pb-14">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="xl:container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 pb-10">
           <h6 className="text-xs md:text-sm lg:text-base">Our Process</h6>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-display px-6 max-w-md mx-auto">

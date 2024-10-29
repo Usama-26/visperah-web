@@ -24,7 +24,7 @@ const services = [
 export default function Services() {
   return (
     <section className="mt-10 md:mt-14 lg:mt-24 mb-10 md:mb-14 lg:mb-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="xl:container mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="font-display text-2xl lg:text-4xl text-center lg:mb-6">
             What We Deliver

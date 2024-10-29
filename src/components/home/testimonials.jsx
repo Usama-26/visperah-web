@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimonials() {
   return (
     <section className="py-10 md:py-14  bg-neutral-100">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="xl:container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl md:text-4xl font-display text-center mb-8">
           Our happy Clients
         </h2>

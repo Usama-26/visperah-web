@@ -4,7 +4,7 @@ import React from "react";
 export default function WhoWeAre() {
   return (
     <section className="my-6 lg:my-16">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="xl:container mx-auto px-4 sm:px-6 lg:px-8">
         <h6 className="text-purple-500 text-sm lg:text-base font-medium">
           Who We Are ?
         </h6>
