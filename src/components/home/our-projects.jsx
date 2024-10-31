@@ -71,7 +71,7 @@ export default function OurProjects() {
         </Splide>
       </div>
 
-      <div className="xl:container mx-auto px-4 md:px-6 lg:px-8  lg:mt-6 md:mt-4">
+      {/* <div className="xl:container mx-auto px-4 md:px-6 lg:px-8  lg:mt-6 md:mt-4">
         <Link
           href={"#"}
           className="rounded-lg inline-flex items-center gap-2 px-5 py-3 text-white bg-black transition duration-200 hover:shadow-lg text-xs md:text-sm lg:text-base"
@@ -80,7 +80,7 @@ export default function OurProjects() {
         >
           <span>View All Projects</span>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -97,7 +97,7 @@ function Slide({ link, imgSrc }) {
           className=" md:rounded-xl rounded-lg"
         />
         <div className="flex items-center gap-4">
-          {link ? (
+          {/* {link ? (
             <Link
               href={link}
               className="rounded-full border border-black inline-flex items-center gap-2 lg:px-5 lg:py-3 md:px-3 md:py-2 px-2 py-1 hover:text-white hover:bg-black transition duration-200 text-xs md:text-sm lg:text-base font-medium"
@@ -109,7 +109,7 @@ function Slide({ link, imgSrc }) {
               </span>
               <ArrowTopRight className="lg:size-5 md:size-4 size-3 " />
             </Link>
-          ) : null}
+          ) : null} */}
         </div>
       </div>
     </SplideSlide>

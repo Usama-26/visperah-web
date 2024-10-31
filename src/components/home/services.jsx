@@ -1,22 +1,29 @@
+import Image from "next/image";
+
 const services = [
   {
     title: "UI/UX Design",
+    imgSrc: "/services/ui-ux-design.svg",
     desc: " Deliver intuitive, user-centered designs that enhance engagement and create lasting connections. Shape memorable experiences with impactful interfaces.",
   },
   {
     title: "Web and Mobile Application Development",
+    imgSrc: "/services/development.svg",
     desc: "Bring your vision to life with dynamic web and app development, crafted for exceptional performance and an outstanding user experience.",
   },
   {
     title: "Video Editing",
+    imgSrc: "/services/video-editing.svg",
     desc: "Enhance your visuals with expert video editing that brings your story to life. Deliver polished, high-impact content that captivates your audience.",
   },
   {
     title: "Social Media Management",
+    imgSrc: "/services/social-media.svg",
     desc: "Maximize your brand's reach and engagement through strategic, data-driven social media management.",
   },
   {
     title: "Building Memorable Brands with Storytelling",
+    imgSrc: "/services/brand-building.svg",
     desc: "Shape your brand’s identity through powerful storytelling that connects with your audience. Create lasting impressions with narratives that resonate.",
   },
 ];
@@ -48,12 +55,21 @@ export default function Services() {
 
 const ServiceCard = ({ service }) => {
   return (
-    <div className="bg-white border border-dashed border-gray-300 px-4 pt-6 rounded-xl transition duration-200 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer ">
+    <div className="bg-white border border-dashed border-gray-300 px-4 pt-6 pb-4 rounded-xl transition duration-200 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer flex flex-col justify-between">
       <div className="mb-8">
         <h2 className="text-xl font-display mb-2 h-14">{service.title}</h2>
         <p className="md:text-sm text-xs leading-5 text-gray-500">
           {service.desc}
         </p>
+      </div>
+      <div>
+        <Image
+          src={service.imgSrc}
+          width={500}
+          height={500}
+          className="size-auto mx-auto"
+          alt={service.title}
+        />
       </div>
     </div>
   );

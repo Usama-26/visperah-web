@@ -25,7 +25,7 @@ export default function HomeHero() {
           }}
         />
       </div>
-      <div className="mx-auto max-w-3xl py-10 sm:py-14 lg:py-[4.5rem]  ">
+      <div className="mx-auto max-w-3xl py-10 sm:py-14 lg:pt-[3.5rem] lg:pb-0  ">
         <div className="text-center px-4 md:px-0">
           <h1 className="text-3xl md:text-5xl  font-display ">
             Build Your Brand with Visperah Let&apos;s Grow Together.
@@ -50,8 +50,8 @@ export default function HomeHero() {
             </Link>
           </div>
         </div>
-        <OurPartners />
       </div>
+      <OurPartners />
       <div
         className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         aria-hidden="true"
